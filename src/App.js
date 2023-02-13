@@ -700,8 +700,8 @@ const App = () => {
       </div>
 
       <div className="pt-10 flex flex-col md:flex-row justify-between border-b-2  mx-10 lg:mx-20 pb-20">
-        <div className="flex flex-row md:flex-col justify-around pr-10">
-          <div className="flex pt-6 pr-4 md:pb-10">
+        <div className="flex flex-col  justify-around pr-10 px-10">
+          <div className="flex pt-6 pr-4 pb-7 mb">
             <img className="w-14 h-16 pr-2" src={logo} alt="company Logo" />
             <div>
               <p className="text-green text-3xl font-main">Groceryish</p>
@@ -730,8 +730,8 @@ const App = () => {
         </div>
 
         <div className="flex flex-col sm:flex-row justify-between w-full pt-5 px-10">
-          <div>
-            <p className="pb-5 text-main font-main font-semibold text-2xl lg:text-3xl">
+          <div className="pt-4">
+            <p className="pb-5  text-main font-main font-semibold text-2xl lg:text-3xl">
               Account
             </p>
             <p className="pt-1">Wishlist</p>
@@ -740,7 +740,7 @@ const App = () => {
             <p className="pt-1">Shipping Details</p>
           </div>
 
-          <div>
+          <div className="pt-4">
             <p className="font-main text-main pb-5 font-semibold  text-2xl lg:text-3xl">
               Useful links
             </p>
@@ -751,7 +751,7 @@ const App = () => {
             <p className="pt-1">New products</p>
           </div>
 
-          <div>
+          <div className="pt-4">
             <p className="font-main text-main pb-5 font-semibold  text-2xl lg:text-3xl">
               Help Center
             </p>

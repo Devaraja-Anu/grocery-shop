@@ -12,10 +12,10 @@ const FooterBanner = () => {
         {/* left Side */}
         <div className="my-10 px-5 sm:pl-10">
           <div className="">
-            <p className="text-6xl font-semibold font-main text-main">
+            <p className="text-5xl md:text-6xl font-semibold font-main text-main">
               Shop faster with
             </p>
-            <p className="text-6xl font-semibold font-main text-main">
+            <p className="text-5xl md:text-6xl font-semibold font-main text-main">
               Groceyish App
             </p>
             <p className="text-xl font-main font-semibold py-3 text-grey">
